@@ -30,8 +30,8 @@ export default function Header() {
         }}
         className="flex flex-rows items-center"
       >
-        <SocialIcon url={linkedinUrl} fgColor="gray" bgColor="transparent" />
-        <SocialIcon url={githubUrl} fgColor="gray" bgColor="transparent" />
+        <SocialIcon url={linkedinUrl} fgColor="#55d898" bgColor="transparent" />
+        <SocialIcon url={githubUrl} fgColor="#55d898"  bgColor="transparent" />
       </motion.div>
       <motion.div
         initial={{
@@ -51,12 +51,12 @@ export default function Header() {
       >
         <SocialIcon
           className="cursor-pointer"
-          fgColor="gray"
+          fgColor="#55d898" 
           bgColor="transparent"
           network="email"
           onClick={handleEmailClick}
         />
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
+        <p className="uppercase hidden md:inline-flex text-sm text-[#55d898]">
           Get in Touch
         </p>
       </motion.div>
