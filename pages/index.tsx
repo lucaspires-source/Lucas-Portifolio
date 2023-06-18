@@ -1,8 +1,16 @@
+import Header from "@/components/Header/Header";
+import type { NextPage } from "next";
+import Head from "next/head";
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
-      <div className="text-blue-500">
-      Hello World
-      </div>
-  )
-}
+    <div>
+      <Head>
+        <title>Portifólio do Lucas</title>
+      </Head>
+      <Header />
+    </div>
+  );
+};
+
+export default Home;
