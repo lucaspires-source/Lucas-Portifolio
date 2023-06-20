@@ -1,7 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
-import { once } from "events";
-import { motion } from "framer-motion";
-
 type Props = {
   directionLeft?: boolean;
 };

@@ -15,7 +15,7 @@ export default function About() {
       }}
       className="flex relative text-cent md:text-left md:text-flex md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center  flex-col h-screen"
     >
-      <h3 className="absolute top-20 uppercase tracking-[10px] text-gray-500 text-2xl hidden md:inline">
+      <h3 className="absolute top-[10%] uppercase tracking-[10px] text-gray-500 text-2xl">
         About
       </h3>
       <motion.img
