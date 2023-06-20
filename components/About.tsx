@@ -15,7 +15,7 @@ export default function About() {
       }}
       className="flex relative text-cent md:text-left md:text-flex md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center  flex-col h-screen"
     >
-      <h3 className="absolute top-24 uppercase tracking-[10px] text-gray-500 text-2xl">
+      <h3 className="absolute top-20 uppercase tracking-[10px] text-gray-500 text-2xl hidden md:inline">
         About
       </h3>
       <motion.img
@@ -32,15 +32,15 @@ export default function About() {
         }}
         src="https://pbs.twimg.com/media/Fwug3rUWwAY_1QP?format=jpg&name=large"
         alt="about section profile picture"
-        className="mb-20 md:mb-0 flex-shrink-0 rounded-full w-56 h-56 object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+        className="hidden sm:inline mb-20 md:mb-0 flex-shrink-0 rounded-full w-56 h-56 object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
       />
       <div className="space-y-10 px-0 md:px-10">
-        <p className="text-4xl font-semibold">
+        <p className="text-center md:text-left text-lg md:text-4xl font-semibold">
           Here is a{" "}
           <span className="underline decoration-[#55d898]/50">little</span>{" "}
           background:
         </p>
-        <p className="text-base">
+        <p className="text-justify text-sm md:text-base">
           I am a motivated Full Stack software developer with a strong
           background in web and mobile application development. Proficient in
           JavaScript, TypeScript, Python, and technologies like Docker, Django,
